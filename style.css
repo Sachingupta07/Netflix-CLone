@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   
+}
+:root{
+    --primaryColor:black;
+    --background-color:rgba(22, 21, 21, 0.884);
+    --text-color:white;
+}
+header{
+    background-color: var(--primaryColor);
+    
+    
+}
+.header>img{
+    width: 98.7vw;
+    height: 94vh;
+   position:absolute;
+   z-index: -1;
+   top: 0;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(30%);
+   
+
+    
+}
+nav{
+    width: 50vw;
+    height: 50px;
+    background-image: url("Assests/netflix-logo.png");
+    background-repeat: no-repeat;
+    background-position: 200px 0px;
+    background-size: contain;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 20px;
+    left: 30px;
+    
+    
+}
+nav button{
+    position: relative;
+    left: 80vw;
+    
+}
+.english>select{
+    /* background: transparent; */
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 4px;
+    filter: brightness(80%);
+}
+.text{
+    color: white;
+    /* font-size: 58px; */
+    text-align: center;
+    margin: 200px;
+    font-weight: bold;
+    /* filter: brightness(30%); */
+}
+.text-1{
+    font-size: 58px
+}
+.text-2{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px;
+}
+.text-3{
+    font-weight: 400;
+    margin-top:30px ;
+    margin-bottom: 10px;
+    font-size: 25px;
+    display: block;
+
+}
+.btn{
+    padding:15px;
+    width: 230px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    font-weight: 500; 
+    margin-top: 13px;
+}
+.sign-in{
+    width: 80px;
+    font-size: 14px;
+    padding:10px ;
+}
+input{
+    padding: 20px;
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.575);
+    /* filter: brightness(50%) drop-shadow(1px 1px 1px white); */
+    border-radius: 8px;
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+
+.main-1{
+    display: flex;
+    position: relative;
+    top: -34px;
+    /* justify-content: center;
+    align-items: center; */
+}
+section{
+    background-color: black;
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.text-4 >p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 54px;
+    margin-top: 180px;
+    
+}
+.video>img{
+    position: absolute;
+    z-index: 1;
+    right: 107px;
+}
+video{
+    position: absolute;
+    right: 187px;
+    z-index: 0;
+    top:100px;
+   
+    
+    
+}
+.main-2{
+   
+   display: flex;
+   
+    
+    position: relative;
+    top: -26px;
+    left: 0px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.main-3{
+    display: flex;
+    position: relative;
+    top: -18px;
+    
+}
+.video-2>img{
+    width: 720px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 1;
+    right: 60px;
+    top: 70px;
+}
+.main-4{
+    display: flex;
+    position: relative;
+    top: -10px;
+    
+}
+.footer-1{
+    width: 97.6vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -2px;
+    
+    
+}
+.F-heading{
+    
+    height: 60px;
+}
+.list{
+    list-style: none;
+    
+    border: 2px solid white;
+     position: relative;
+     
+
+}
+@media only screen and (max-width:1475px){
+    .main-1,.main-2,.main-3,.main-4{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
